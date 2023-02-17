@@ -70,9 +70,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      -uses: actions/checkout@v3
-      -name: Print Ayushi
-        run: node --version
+      - uses: actions/checkout@v3
+      - name: Print Ayushi
+        run: echo "Hey Ayushi"
 
 # title: Website Name
 # description: a website for uploading content
