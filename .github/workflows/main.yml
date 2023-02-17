@@ -53,7 +53,7 @@ address:
 #-------------------------------------------------------------->
 
 # ---------------> (it is a confirugation file for github)
-# . github , 
+# . github ,
 # on -------> triggered , on push, on pr request
 # .docker
 # .jenkins
@@ -63,26 +63,19 @@ address:
 
 #  how to work work with yml---------->
 #steps -> seq of tasks or action that make a job
-name: My Application
-on:
-  push:
-    branches: -main
-  pull_request:
-    branches: -main
 
-NAME: Github action ofr
-ON:
+name: Github action ofr
+on:
   push:
     branches: [main]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-     -uses: actions/checkout@v2
-     -name: Print Ayushi
-     run: echo "Hey Ayushi"
-
-     
+      -uses: actions/checkout@v2
+      -name: Print Ayushi
+      run: echo "Hey Ayushi"
+      
 # title: Website Name
 # description: a website for uploading content
 # age: 22
