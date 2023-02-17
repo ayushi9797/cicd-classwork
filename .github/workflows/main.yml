@@ -8,9 +8,9 @@
 # key - title
 # value - website name
 
-title: Website Name
-description: a website for uploading content
-age: 22
+# title: Website Name
+# description: a website for uploading content
+# age: 22
 
 # datastructures --->
 # strings, arrays, objects
