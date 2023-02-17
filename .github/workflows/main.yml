@@ -70,13 +70,44 @@ on:
   pull_request:
     branches: -main
 
-name: Github action ofr
-on:
+NAME: Github action ofr
+ON:
   push:
     branches: [main]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+     -uses: actions/checkout@v2
      -name: Print Ayushi
      run: echo "Hey Ayushi"
+
+     
+# title: Website Name
+# description: a website for uploading content
+# age: 22
+# keys: -technology -images -creative
+# address:
+#   Street: Main market
+#   City: Jhansi
+#   state: UP
+#   value: ${{env.VALUE}}
+#   variables: ${{github.VARIABLE_NAME}}
+# name: My Application
+# on:
+#   push:
+#     branches: -main
+#   pull_request:
+#     branches: -main
+# NAME: Github action for
+# ON:
+#   push:
+#     branches:
+#       - main
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#       -uses: actions/checkout@v2
+#       -name: Print Ayushi
+#       run: echo "Hey Ayushi"
